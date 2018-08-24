@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuWeb.Fragment.CategoryFragment">
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/card_sopping"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ss_4"
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp" />
+            <TextView
+                android:textColor="@color/blackPrimary"
+                android:textSize="18sp"
+                android:text="Mua sắm"
+                android:layout_marginLeft="4dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/card_news"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ss_4"
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp" />
+            <TextView
+                android:textColor="@color/blackPrimary"
+                android:textSize="18sp"
+                android:text="Tin tức"
+                android:layout_marginLeft="4dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/card_sport"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ss_4"
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp" />
+            <TextView
+                android:textColor="@color/blackPrimary"
+                android:textSize="18sp"
+                android:text="Thể thao"
+                android:layout_marginLeft="4dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/card_film"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ss_4"
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp" />
+            <TextView
+                android:textColor="@color/blackPrimary"
+                android:textSize="18sp"
+                android:text="Xem phim"
+                android:layout_marginLeft="4dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/card_music"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ss_4"
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp" />
+            <TextView
+                android:textColor="@color/blackPrimary"
+                android:textSize="18sp"
+                android:text="Nghe nhạc"
+                android:layout_marginLeft="4dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/card_technology"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginRight="4dp"
+                android:src="@drawable/ss_4"
+                android:scaleType="center"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp" />
+            <TextView
+                android:textColor="@color/blackPrimary"
+                android:textSize="18sp"
+                android:text="Công nghệ"
+                android:layout_marginLeft="4dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
