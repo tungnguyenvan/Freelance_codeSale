@@ -31,6 +31,8 @@ public class ShoppingAdapter extends RecyclerView.Adapter<ShoppingViewHolder>{
 
     @Override
     public void onBindViewHolder(ShoppingViewHolder holder, int position) {
+        holder.initWebModel(listWeb.get(position));
+
         //add image in item recyclerview
         //......
 

@@ -45,10 +45,10 @@ public class ShoppingActivity extends AppCompatActivity {
 
     private void initRecyclerview() {
         listWeb = new ArrayList<>();
-        listWeb.add(new WebModel("lazada.vn", "Lazada"));
-        listWeb.add(new WebModel("lazada.vn", "Vn"));
-        listWeb.add(new WebModel("lazada.vn", "FPT Shop"));
-        listWeb.add(new WebModel("lazada.vn", "Shoppee"));
+        listWeb.add(new WebModel("https://lazada.vn", "Lazada"));
+        listWeb.add(new WebModel("https://lazada.vn", "Vn"));
+        listWeb.add(new WebModel("https://fptshop.com.vn", "FPT Shop"));
+        listWeb.add(new WebModel("https://shopee.vn", "Shoppee"));
 
         shoppingAdapter = new ShoppingAdapter(this, listWeb);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);

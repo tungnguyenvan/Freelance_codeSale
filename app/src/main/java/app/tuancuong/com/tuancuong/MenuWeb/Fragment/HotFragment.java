@@ -1,6 +1,8 @@
 package app.tuancuong.com.tuancuong.MenuWeb.Fragment;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -9,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import app.tuancuong.com.tuancuong.R;
+import app.tuancuong.com.tuancuong.WebActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -51,20 +54,33 @@ public class HotFragment extends Fragment implements View.OnClickListener {
         gold_price.setOnClickListener(this);
     }
 
+    private void openCard(String url, String title){
+        Intent intent = new Intent(getContext(), WebActivity.class);
+        intent.putExtra("EXTRA_URL", url);
+        intent.putExtra("EXTRA_TITLE", title);
+        startActivity(intent);
+    }
+
+    private void openBrowser(String url) {
+        if (!url.startsWith("http://") && !url.startsWith("https://")) url = "http://" + url;
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+        startActivity(browserIntent);
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.card1 :
-
+                openCard("https://fptshop.com.vn", "FPT Shop");
                 break;
             case R.id.card2:
-
+                openBrowser("https://lazada.com");
                 break;
             case R.id.card3:
-
+                openCard("https://24h.com.vn", "24h");
                 break;
             case R.id.card4:
-
+                openCard("https://shopee.vn", "Shopee");
                 break;
             case R.id.card_weather:
 
