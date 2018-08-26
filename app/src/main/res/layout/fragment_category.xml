@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuWeb.Fragment.CategoryFragment">
+    tools:context=".fragment.CategoryFragment">
     <LinearLayout
         android:padding="8dp"
         android:orientation="vertical"
@@ -20,11 +20,11 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:layout_marginRight="4dp"
-                android:src="@drawable/ss_4"
-                android:scaleType="center"
+                android:src="@drawable/banner_2"
+                android:scaleType="centerCrop"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="64dp" />
+                android:layout_height="100dp" />
             <TextView
                 android:textColor="@color/blackPrimary"
                 android:textSize="18sp"
@@ -45,11 +45,11 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:layout_marginRight="4dp"
-                android:src="@drawable/ss_4"
-                android:scaleType="center"
+                android:src="@drawable/banner_2"
+                android:scaleType="centerCrop"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="64dp" />
+                android:layout_height="100dp" />
             <TextView
                 android:textColor="@color/blackPrimary"
                 android:textSize="18sp"
@@ -70,11 +70,11 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:layout_marginRight="4dp"
-                android:src="@drawable/ss_4"
-                android:scaleType="center"
+                android:src="@drawable/banner_2"
+                android:scaleType="centerCrop"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="64dp" />
+                android:layout_height="100dp" />
             <TextView
                 android:textColor="@color/blackPrimary"
                 android:textSize="18sp"
@@ -95,11 +95,11 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:layout_marginRight="4dp"
-                android:src="@drawable/ss_4"
-                android:scaleType="center"
+                android:src="@drawable/banner_2"
+                android:scaleType="centerCrop"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="64dp" />
+                android:layout_height="100dp" />
             <TextView
                 android:textColor="@color/blackPrimary"
                 android:textSize="18sp"
@@ -120,11 +120,11 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:layout_marginRight="4dp"
-                android:src="@drawable/ss_4"
-                android:scaleType="center"
+                android:src="@drawable/banner_2"
+                android:scaleType="centerCrop"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="64dp" />
+                android:layout_height="100dp" />
             <TextView
                 android:textColor="@color/blackPrimary"
                 android:textSize="18sp"
@@ -145,11 +145,11 @@
             android:layout_height="wrap_content">
             <ImageView
                 android:layout_marginRight="4dp"
-                android:src="@drawable/ss_4"
-                android:scaleType="center"
+                android:src="@drawable/banner_2"
+                android:scaleType="centerCrop"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="64dp" />
+                android:layout_height="100dp" />
             <TextView
                 android:textColor="@color/blackPrimary"
                 android:textSize="18sp"

@@ -86,12 +86,8 @@ public class WebActivity extends AppCompatActivity implements AdvancedWebView.Li
         toolbarTop.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                url = "https://nguyenkim.com";
-                title = "Nguyen Kim";
-                Intent openMainActivity= new Intent(WebActivity.this, WebActivity.class);
-                openMainActivity.putExtra("EXTRA_URL", url);
-                openMainActivity.putExtra("EXTRA_TITLE", title);
-                startActivity(openMainActivity);
+                Intent menuIntent = new Intent(WebActivity.this, MenuActivity.class);
+                startActivity(menuIntent);
                 finish();
             }
         });
@@ -109,23 +105,6 @@ public class WebActivity extends AppCompatActivity implements AdvancedWebView.Li
         });
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.web, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_home:
-                startActivity(new Intent(WebActivity.this, HomeActivity.class));
-                finish();
-                break;
-
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
     @Override
     protected void onStart() {

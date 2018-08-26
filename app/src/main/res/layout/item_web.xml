@@ -10,10 +10,10 @@
     android:layout_height="wrap_content">
     <ImageView
         android:id="@+id/image"
-        android:scaleType="center"
-        android:src="@drawable/ss_4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner_1"
         android:layout_width="150dp"
-        android:layout_height="64dp" />
+        android:layout_height="100dp" />
     <TextView
         android:id="@+id/txt_title"
         android:textColor="@color/blackPrimary"

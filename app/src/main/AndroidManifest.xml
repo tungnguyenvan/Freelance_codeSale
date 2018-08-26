@@ -12,17 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".IntroActivity"></activity>
-        <activity android:name=".WebActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".MenuWeb.MenuWeb">
+        <activity android:name=".IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShoppingActivity"></activity>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".WebActivity" />
+        <activity android:name=".ShoppingActivity"/>
     </application>
 
 </manifest>

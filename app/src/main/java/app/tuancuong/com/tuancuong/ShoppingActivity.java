@@ -10,8 +10,8 @@ import android.view.View;
 import java.util.ArrayList;
 import java.util.List;
 
-import app.tuancuong.com.tuancuong.Adapter.Shopping.ShoppingAdapter;
-import app.tuancuong.com.tuancuong.Model.WebModel;
+import app.tuancuong.com.tuancuong.adapter.Shopping.ShoppingAdapter;
+import app.tuancuong.com.tuancuong.model.WebModel;
 
 public class ShoppingActivity extends AppCompatActivity {
     private Toolbar toolbar;
