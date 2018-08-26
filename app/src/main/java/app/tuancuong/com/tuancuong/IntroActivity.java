@@ -25,9 +25,7 @@ public class IntroActivity extends TutorialActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        Intent intent = new Intent(getBaseContext(), WebActivity.class);
-        intent.putExtra("EXTRA_URL", "https://nguyenkim.com");
-        intent.putExtra("EXTRA_TITLE", "Nguyen Kim");
+        Intent intent = new Intent(getBaseContext(), MenuActivity.class);
         startActivity(intent);
         finish();
     }

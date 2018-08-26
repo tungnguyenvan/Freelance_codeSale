@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".MenuWeb.Fragment.HotFragment">
+    tools:context=".fragment.HotFragment">
     <LinearLayout
         android:padding="8dp"
         android:orientation="vertical"
@@ -16,7 +16,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <android.support.v7.widget.GridLayout
-            android:padding="8dp"
             app:columnCount="2"
             app:rowCount="2"
             android:layout_width="match_parent"
@@ -27,53 +26,55 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:background="?attr/selectableItemBackground"
-                android:orientation="vertical"
-                android:layout_margin="16dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_columnWeight="1"
                 app:layout_rowWeight="1">
                 <ImageView
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/seo"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:src="@drawable/ic_stars_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="FPT Shop"
-                    android:textAlignment="center"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
             </LinearLayout>
 
             <LinearLayout
-                android:id="@id/card2"
+                android:id="@+id/card2"
                 android:clickable="true"
                 android:focusable="true"
                 android:background="?attr/selectableItemBackground"
-                android:orientation="vertical"
-                android:layout_margin="16dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_columnWeight="1"
                 app:layout_rowWeight="1">
                 <ImageView
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/seo"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:src="@drawable/ic_stars_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Lazada"
-                    android:textAlignment="center"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:text="FPT Shop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -81,26 +82,27 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:background="?attr/selectableItemBackground"
-                android:orientation="vertical"
-                android:layout_margin="16dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_columnWeight="1"
                 app:layout_rowWeight="1">
                 <ImageView
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/seo"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:src="@drawable/ic_stars_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="24h"
-                    android:textAlignment="center"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:text="FPT Shop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -108,26 +110,84 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:background="?attr/selectableItemBackground"
-                android:orientation="vertical"
-                android:layout_margin="16dp"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_columnWeight="1"
                 app:layout_rowWeight="1">
                 <ImageView
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/seo"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:src="@drawable/ic_stars_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Shopee"
-                    android:textAlignment="center"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:text="FPT Shop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/card5"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+                <ImageView
+                    android:src="@drawable/ic_stars_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FPT Shop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/card6"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?attr/selectableItemBackground"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+                <ImageView
+                    android:src="@drawable/ic_stars_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="FPT Shop"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
             </LinearLayout>
         </android.support.v7.widget.GridLayout>
 
@@ -139,14 +199,15 @@
             android:layout_height="wrap_content" />
 
         <ImageView
+            android:id="@+id/imgTinHot"
             android:clickable="true"
             android:focusable="true"
             android:background="?attr/selectableItemBackground"
-            android:scaleType="center"
+            android:scaleType="centerCrop"
             android:layout_margin="8dp"
-            android:src="@drawable/ss_4"
+            android:src="@drawable/banner_1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="150dp" />
 
         <TextView
             android:textSize="18sp"
@@ -181,7 +242,7 @@
                 <TextView
                     android:text="Thời tiết"
                     android:textAlignment="center"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </LinearLayout>
@@ -206,7 +267,7 @@
                 <TextView
                     android:text="Tỷ giá"
                     android:textAlignment="center"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </LinearLayout>
@@ -231,7 +292,7 @@
                 <TextView
                     android:text="Giá vàng"
                     android:textAlignment="center"
-                    android:textSize="18sp"
+                    android:textSize="16sp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
             </LinearLayout>
