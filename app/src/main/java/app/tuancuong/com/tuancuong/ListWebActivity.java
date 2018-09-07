@@ -65,46 +65,47 @@ public class ListWebActivity extends AppCompatActivity {
         listWeb = new ArrayList<>();
         switch (key){
             case KEY_SHOPPING:
-                title.setText("Shopping"); //thay doi title
-                listWeb.add(new WebModel("https://lazada.vn", "Lazada"));
-                listWeb.add(new WebModel("https://lazada.vn", "Vn"));
-                listWeb.add(new WebModel("https://fptshop.com.vn", "FPT Shop"));
-                listWeb.add(new WebModel("https://shopee.vn", "Shoppee"));
+                title.setText("Shopping"); //Thay doi image // Thay doi url //thay doi title
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
                 break;
             case KEY_NEWS:
-                title.setText("Tin Tuc");   //thay doi title
-                listWeb.add(new WebModel("https://lazada.vn", "Lazada"));
-                listWeb.add(new WebModel("https://lazada.vn", "Vn"));
-                listWeb.add(new WebModel("https://fptshop.com.vn", "FPT Shop"));
-                listWeb.add(new WebModel("https://shopee.vn", "Shoppee"));
+                title.setText("Tin Tuc");   //Thay doi image // Thay doi url //thay doi title
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
                 break;
             case KEY_SPORT:
-                title.setText("The thao");  //thay doi title
-                listWeb.add(new WebModel("https://lazada.vn", "Lazada"));
-                listWeb.add(new WebModel("https://lazada.vn", "Vn"));
-                listWeb.add(new WebModel("https://fptshop.com.vn", "FPT Shop"));
-                listWeb.add(new WebModel("https://shopee.vn", "Shoppee"));
+                title.setText("The thao");  //Thay doi image //Thay doi url //thay doi title
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
                 break;
             case KEY_FILM:
-                title.setText("Xem film");  //thay doi title
-                listWeb.add(new WebModel("https://lazada.vn", "Lazada"));
-                listWeb.add(new WebModel("https://lazada.vn", "Vn"));
-                listWeb.add(new WebModel("https://fptshop.com.vn", "FPT Shop"));
-                listWeb.add(new WebModel("https://shopee.vn", "Shoppee"));
+                title.setText("Xem film");  //Thay doi image // Thay doi url //thay doi title
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
                 break;
             case KEY_MUSIC:
-                title.setText("Nghe nhac"); //thay doi title
-                listWeb.add(new WebModel("https://lazada.vn", "Lazada"));
-                listWeb.add(new WebModel("https://lazada.vn", "Vn"));
-                listWeb.add(new WebModel("https://fptshop.com.vn", "FPT Shop"));
-                listWeb.add(new WebModel("https://shopee.vn", "Shoppee"));
+                title.setText("Nghe nhac"); //Thay doi image // Thay doi url //thay doi title
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
                 break;
             case KEY_TECHNOLOGY:
-                title.setText("Cong nghe"); //thay doi title
-                listWeb.add(new WebModel("https://lazada.vn", "Lazada"));
-                listWeb.add(new WebModel("https://lazada.vn", "Vn"));
-                listWeb.add(new WebModel("https://fptshop.com.vn", "FPT Shop"));
-                listWeb.add(new WebModel("https://shopee.vn", "Shoppee"));
+                title.setText("Cong nghe"); //Thay doi image // Thay doi url //thay doi title
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Lazada"));
+                listWeb.add(new WebModel(R.drawable.banner_1, "https://lazada.vn", "Vn"));
                 break;
         }
     }

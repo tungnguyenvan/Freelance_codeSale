@@ -39,6 +39,7 @@ public class ShoppingAdapter extends RecyclerView.Adapter<ShoppingViewHolder>{
 
         //add image in item recyclerview
         //......
+        holder.image.setImageResource(listWeb.get(position).getImage());
 
         //set title in item recyclerview
         holder.txt_title.setText(listWeb.get(position).getTitle());
