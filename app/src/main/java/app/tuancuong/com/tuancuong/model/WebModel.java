@@ -1,6 +1,7 @@
 package app.tuancuong.com.tuancuong.model;
 
 public class WebModel {
+    public int image;
     public String url;
     public String title;
 
@@ -9,7 +10,21 @@ public class WebModel {
         this.title = title;
     }
 
+    public WebModel(int image, String url, String title) {
+        this.image = image;
+        this.url = url;
+        this.title = title;
+    }
+
     public WebModel() {
+    }
+
+    public int getImage() {
+        return image;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
     }
 
     public String getUrl() {
